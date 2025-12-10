@@ -3,8 +3,5 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 
-service:
-  port: 8080
-
 appMessage: "Payments Service"
 
