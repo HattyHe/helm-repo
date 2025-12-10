@@ -1,5 +1,10 @@
 image:
-     repository: busybox
-     tag: latest
-     pullPolicy: IfNotPresent
+  repository: busybox
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 8080
+
 appMessage: "Payments Service"
+
